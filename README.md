@@ -1,6 +1,6 @@
 # data-manager-mock-test
 
-This is a sample project demonstrating mocking DataManager in middleware tests.
+This is a sample project demonstrating mocking DataManager in CUBA middleware tests.
 
 Noteable files:
 - `build.gradle` - mockito library dependency.
