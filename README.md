@@ -9,4 +9,8 @@ Noteable files:
 - `com.company.dmocks.DmmocksMockedDMTestContainer` - base class for tests that need DataManager mocking.
 - `com.company.dmocks.core.MockedPhoneManagerTest` - class testing logic of the PhoneManager business bean with mocks
 
+Business logic:
+- `com.company.dmocks.entity.PhoneSettings` - entity associating to User.
+- `com.company.dmocks.core.PhoneManager` - Spring bean with business logic that we are testing.
+
 Normal test doing the same testing without mocking the DataManager - `com.company.dmocks.core.PhoneManagerTest`.
